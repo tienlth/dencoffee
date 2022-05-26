@@ -24,7 +24,7 @@
                         'text'=> $content
                     ]);
 
-                    redirect('/',['mess'=>'T & T đã ghi nhận góp ý của bạn. Xin cảm ơn!']);
+                    redirect('/',['mess'=>'Den Coffee đã ghi nhận góp ý của bạn. Xin cảm ơn!']);
                 }
                 else {
                     redirect('/',['mess'=>'Góp ý không được gửi do có lỗi xảy ra!']);
